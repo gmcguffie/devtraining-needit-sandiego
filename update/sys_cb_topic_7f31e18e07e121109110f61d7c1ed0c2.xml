@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>a5ce18a1536b101024faddeeff7b12bb,140e2eda0b203300a1b16c2367673af4,3efd22da0b203300a1b16c2367673a10</category>
+        <channels/>
+        <connect_queue/>
+        <description>Another test conversation.</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{"graph_api_version":"1.0.39.sdp9","variables":{},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"dff01207a41648ce8caa9b63e7d61b90":{"id":"dff01207a41648ce8caa9b63e7d61b90","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"4b91bb1578d242d5af4098a0548b8be1":{"id":"4b91bb1578d242d5af4098a0548b8be1","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"0132ea67f7a04fde9f22fcf3f68a2cad","edgeType":"Edge","source":"dff01207a41648ce8caa9b63e7d61b90","target":"4b91bb1578d242d5af4098a0548b8be1","sourcePort":"","targetPort":""}]}}}</graph>
+        <key_phrases>Test 2 Conversation</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Test 2 Conversation</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-14 13:52:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7f31e18e07e121109110f61d7c1ed0c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test 2 Conversation</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_7f31e18e07e121109110f61d7c1ed0c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-14 13:52:17</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=7f31e18e07e121109110f61d7c1ed0c2"/>
+</record_update>
